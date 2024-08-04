@@ -2,10 +2,6 @@
   font-family: sans-serif;
 }
 
-body {
-  margin: 30px;
-}
-
 input,
 button {
   font-size: 20px;
@@ -24,8 +20,18 @@ button {
   margin-right: 5px;
 }
 
+button:hover {
+  background: rgb(188, 184, 184);
+}
+
 button:nth-last-child(2),
 button:nth-last-child(1) {
   background: tomato;
+  color: white;
+}
+
+button:nth-last-child(2):hover,
+button:nth-last-child(1):hover {
+  background: rgb(201, 94, 75);
   color: white;
 }
